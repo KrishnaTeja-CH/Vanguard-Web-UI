@@ -1,0 +1,38 @@
+:host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #ffcccc, #ff6666, #ff3333, #cc0000);
+    min-height: 100vh;
+    box-sizing: border-box;
+    color: rgb(26, 23, 23);
+    text-align: center;
+  }
+  
+  .options button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: opacity 0.3s ease;
+  }
+  
+
+  .yes {
+    background-color: #08581b;
+  }
+  
+ 
+  .no {
+    background-color: #67171c;
+  }
+  
+
+  .options button:hover {
+    opacity: 0.8;
+  }
+  
+  
